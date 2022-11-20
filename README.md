@@ -1,4 +1,4 @@
-# Supervised-Learning-with-scikit-learn
+# DataCamp-Supervised-Learning-with-scikit-learn
 
 ## Chapter 1: Classification
 
