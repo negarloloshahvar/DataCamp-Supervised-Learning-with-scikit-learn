@@ -4,6 +4,13 @@
 
 In this chapter, we will learn about classification problems and learn how to solve them using supervised learning techniques. We'll learn how to split data into training and test sets, fit a model, make predictions, and evaluate accuracy. We’ll also discover the relationship between model complexity and performance, applying what we learn to a churn dataset, where we will classify the churn status of a telecom company's customers.
 
+### Requirements:
+- No missing values
+- Data in numeric format
+- Data stored in pandas DataFrame or NumPy array
+- Perform Exploratory Data Analysis (EDA) first
+
+
 ### The supervised learning workflow
 Scikit-learn offers a repeatable workflow for using supervised learning models to predict the target variable values when presented with new data.
 
