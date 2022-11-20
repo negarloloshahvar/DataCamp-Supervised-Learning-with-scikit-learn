@@ -1,6 +1,6 @@
 # Supervised-Learning-with-scikit-learn
 
-## Chapter 1:Classification
+## Chapter 1: Classification
 
 ## Chapter 2: Regression
 
