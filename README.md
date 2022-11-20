@@ -33,8 +33,40 @@ y = churn_df["churn"].values
 knn = KNeighborsClassifier(n_neighbors=15)
 knn.fit(X, y)
 X_new
+predictions = model.predict(X_new)
 print('Predictions: {}'.format(predictions))
 
+```
+
+- ```churn_df.values``` returns a numpy array with the underlying data of the DataFrame, *without any index or columns names*.
+
+### Train/testsplit
+
+```
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=21, stratify=y)
+knn = KNeighborsClassifier(n_neighbors=6)
+knn.fit(X_train, y_train)
+print(knn.score(X_test, y_test))
+```
+```
+Modelcomplexityandover/underfitting
+train_accuracies = {}
+test_accuracies = {}
+neighbors = np.arange(1, 26)
+for neighbor in neighbors:
+    knn = KNeighborsClassifier(n_neighbors=neighbor)
+    knn.fit(X_train, y_train)
+    train_accuracies[neighbor] = knn.score(X_train, y_train)
+    test_accuracies[neighbor] = knn.score(X_test, y_test)
+plt.figure(figsize=(8, 6))
+plt.title("KNN: Varying Number of Neighbors")
+plt.plot(neighbors, train_accuracies.values(), label="Training Accuracy")
+plt.plot(neighbors, test_accuracies.values(), label="Testing Accuracy")
+plt.legend()
+plt.xlabel("Number of Neighbors")
+plt.ylabel("Accuracy")
+plt.show()
 ```
 
 ## Chapter 2: Regression
