@@ -15,6 +15,21 @@ predictions = model.predict(X_new)
 print(predictions)
 ```
 
+### 1. k-Nearest Neighbors
+
+The k-nearest neighbors algorithm, also known as KNN or k-NN, is a non-parametric, supervised learning classifier, which uses *proximity* to make classifications or predictions about the grouping of an individual data point.
+
+```
+from sklearn.neighbors import KNeighborsClassifier
+X = churn_df[["total_day_charge", "total_eve_charge"]].values
+y = churn_df["churn"].values
+knn = KNeighborsClassifier(n_neighbors=15)
+knn.fit(X, y)
+X_new
+print('Predictions: {}'.format(predictions))
+
+```
+
 ## Chapter 2: Regression
 
 ## Chapter 3: Fine-Tuning Your Model
