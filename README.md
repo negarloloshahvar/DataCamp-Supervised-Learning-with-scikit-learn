@@ -1,9 +1,9 @@
 # Supervised-Learning-with-scikit-learn
 
-## Classification
+## Chapter 1:Classification
 
-## Regression
+## Chapter 2: Regression
 
-## Fine-Tuning Your Model
+## Chapter 3: Fine-Tuning Your Model
 
-## Preprocessing and Pipelines
+## Chapter 4: Preprocessing and Pipelines
