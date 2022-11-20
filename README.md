@@ -24,7 +24,7 @@ print(predictions)
 
 ### 1. k-Nearest Neighbors
 
-The k-nearest neighbors algorithm, also known as KNN or k-NN, is a non-parametric, supervised learning classifier, which uses *proximity* to make classifications or predictions about the grouping of an individual data point.
+The k-nearest neighbors algorithm, also known as KNN or k-NN, is a non-parametric, supervised learning classifier, which uses *proximity* to make classifications or predictions about the grouping of an individual data point. It is also called a lazy learner algorithm because it does not learn from the training set immediately instead it stores the dataset and at the time of classification, it performs an action on the dataset.
 
 ```
 from sklearn.neighbors import KNeighborsClassifier
@@ -70,6 +70,8 @@ plt.xlabel("Number of Neighbors")
 plt.ylabel("Accuracy")
 plt.show()
 ```
+
+- Training accuracy decreases as the number of neighbors initially gets larger, and vice versa for the testing accuracy.
 
 ## Chapter 2: Regression
 
