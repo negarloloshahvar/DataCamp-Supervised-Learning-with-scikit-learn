@@ -49,8 +49,10 @@ knn = KNeighborsClassifier(n_neighbors=6)
 knn.fit(X_train, y_train)
 print(knn.score(X_test, y_test))
 ```
+
+### Model complexity and over/under fitting
+
 ```
-Modelcomplexityandover/underfitting
 train_accuracies = {}
 test_accuracies = {}
 neighbors = np.arange(1, 26)
