@@ -75,6 +75,11 @@ plt.show()
 
 ## Chapter 2: Regression
 
+```
+from sklearn.linear_model import LinearRegression
+reg = LinearRegression()
+```
+
 ## Chapter 3: Fine-Tuning Your Model
 
 ## Chapter 4: Preprocessing and Pipelines
