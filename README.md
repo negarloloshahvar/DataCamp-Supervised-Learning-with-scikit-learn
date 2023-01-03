@@ -98,6 +98,8 @@ From all the classes (positive and negative), how many of them we have predicted
 
 It is difficult to compare two models with low precision and high recall or vice versa. So to make them comparable, we use F-Score. F-score helps to measure Recall and Precision at the same time. It uses Harmonic Mean in place of Arithmetic Mean by punishing the extreme values more.
 
+### What is the AUC - ROC Curve?
+It tells how much the model is capable of distinguishing between classes. Higher the AUC, the better the model is at predicting 0 classes as 0 and 1 classes as 1.
 
 
 
