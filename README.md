@@ -84,11 +84,11 @@ reg = LinearRegression()
 
 ![image](https://user-images.githubusercontent.com/113103161/210335593-de65ddd7-f36d-4317-bacf-2dec38ae2a5a.png)
 
-The above equation can be explained by saying, from all the positive classes, how many we predicted correctly. 
+The above equation can be explained by saying, from all the positive classes, how many we predicted correctly. (lower false negative rate)
 
 ![image](https://user-images.githubusercontent.com/113103161/210335611-2baf6c23-81e1-4c5e-a5f7-63ffc08367fb.png)
 
-The above equation can be explained by saying, from all the classes we have predicted as positive, how many are actually positive.
+The above equation can be explained by saying, from all the classes we have predicted as positive, how many are actually positive. (lower false positive rate)
 
 ![image](https://user-images.githubusercontent.com/113103161/210336200-8db7efad-25cf-4c75-8352-0273eb1beb94.png)
 
