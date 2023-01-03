@@ -90,7 +90,15 @@ The above equation can be explained by saying, from all the positive classes, ho
 
 The above equation can be explained by saying, from all the classes we have predicted as positive, how many are actually positive.
 
+![image](https://user-images.githubusercontent.com/113103161/210336200-8db7efad-25cf-4c75-8352-0273eb1beb94.png)
+
+From all the classes (positive and negative), how many of them we have predicted correctly.
+
 ![image](https://user-images.githubusercontent.com/113103161/210335632-0a0004f0-208f-437e-8037-161216abe768.png)
+
+It is difficult to compare two models with low precision and high recall or vice versa. So to make them comparable, we use F-Score. F-score helps to measure Recall and Precision at the same time. It uses Harmonic Mean in place of Arithmetic Mean by punishing the extreme values more.
+
+
 
 
 ## Chapter 4: Preprocessing and Pipelines
