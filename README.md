@@ -83,9 +83,11 @@ reg = LinearRegression()
 ## Chapter 3: Fine-Tuning Your Model
 
 ![image](https://user-images.githubusercontent.com/113103161/210335593-de65ddd7-f36d-4317-bacf-2dec38ae2a5a.png)
+
 The above equation can be explained by saying, from all the positive classes, how many we predicted correctly. 
 
 ![image](https://user-images.githubusercontent.com/113103161/210335611-2baf6c23-81e1-4c5e-a5f7-63ffc08367fb.png)
+
 The above equation can be explained by saying, from all the classes we have predicted as positive, how many are actually positive.
 
 ![image](https://user-images.githubusercontent.com/113103161/210335632-0a0004f0-208f-437e-8037-161216abe768.png)
