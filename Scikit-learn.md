@@ -1,5 +1,7 @@
 # sclearn Documentation 
 
+https://scikit-learn.org/stable/modules/classes.html#module-sklearn.impute
+
 ## pipeline
 ### Pipeline
 
