@@ -1,22 +1,32 @@
 # sclearn Documentation 
 
-## sklearn.pipeline
+## pipeline
 ### Pipeline
 
-## sklearn.impute
-### Impute
+## impute
+### SimpleImputer
 
-## sklearn.model_selection
+## model_selection
 ### train_test_split
 ### GridSearchCV
+### cross_val_score
+### KFold
 
-## sklearn.metrics
+## metrics
 ### confusion_matrix
+### mean_squared_error
 
-## sklearn.preprocessing
+## preprocessing
 ### StandardScaler
 
-## sklearn.linear_model
+## linear_model
 ### Lasso
+### LogisticRegression
+
+## neighbors
+### KNeighborsClassifier
+
+## trees
+### DecisionTreeClassifier
 
 
