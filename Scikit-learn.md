@@ -31,4 +31,5 @@ https://scikit-learn.org/stable/modules/classes.html#module-sklearn.impute
 ## trees
 ### DecisionTreeClassifier
 
-
+## preprocessing
+### MinMaxScaler
